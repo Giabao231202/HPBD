@@ -1,0 +1,77 @@
+<html
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" type="image/png" href="./birthdayCake.png"/>
+        <title>Happy Birthday</title>
+        <link rel="stylesheet" href="./style.css">
+        <script>
+            window.open = function () {};
+            window.print = function () {};
+            if (false) {
+                window.ontouchstart = function () {};
+            }
+        </script>
+        <script
+            type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
+        ></script>
+        <meta content="clickberry-extension-here" />
+    </head>
+
+    <body>
+        <link
+            href="https://fonts.googleapis.com/css?family=Wendy+One"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <div class="container">
+            <div class="balloon">
+                <div><span>H</span></div>
+                <div><span>A</span></div>
+                <div><span>P</span></div>
+                <div><span>P</span></div>
+                <div><span>Y</span></div>
+                <div><span>B</span></div>
+                <div><span>I</span></div>
+                <div><span>R</span></div>
+                <div><span>T</span></div>
+                <div><span>H</span></div>
+                <div><span>D</span></div>
+                <div><span>A</span></div>
+                <div><span>Y</span></div>
+            </div>
+            <div class="avatar">
+                <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+                <h1 onclick="showMessage()" class="avatar__title">Chúc mừng sinh nhật Yến Vy</h1>
+            </div>
+            <audio id="player" autoplay loop>
+                <source src="./music.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+            function showMessage() {
+                swal({
+                    title: "Gửi bạn Vy",
+                    text: "Chúc mừng sinh nhật bạn Vy, người bạn thân yêu quý! Nhân dịp này, bạn Bảo muốn gửi đến bạn Vy những lời chúc tốt đẹp nhất. Sinh nhật chính là ngày đặc biệt, là dịp để chúng ta nhìn lại quãng đường đã đi và đánh dấu những bước tiến mới trong cuộc sống. Vy à, trong những năm qua, bạn đã làm cho cuộc sống của tôi trở nên phong phú hơn, ấm áp hơn bởi tình bạn chân thành và những khoảnh khắc đáng nhớ. Chúc mừng bạn đã thêm một tuổi mới, một năm mới tràn đầy niềm vui, sức khỏe dồi dào và thành công trên mọi lĩnh vực. Mong rằng những uớc mơ của Yến Vy sẽ ngày càng hiện thực hóa, và những bước tiến trong sự nghiệp và cuộc sống sẽ mang lại niềm hạnh phúc và đạt được những mục tiêu lớn lao. Chúng ta đã có những kỷ niệm tuyệt vời và bền vững bên nhau, và tôi tin chắc rằng những chặng đường phía trước sẽ còn đẹp hơn nữa. Sinh nhật vui vẻ, Yến Vy! Hãy tận hưởng ngày này đúng nghĩa, được tràn đầy tình thân và tình bạn. Cùng nhau tạo thêm nhiều kỉ niệm mới và điều tuyệt vời sẽ đến với chúng ta, nhớ lần sau có đi chơi thì phải đi được nhe, tết không đi play được thì rất buồn luôn á. Chúc mừng sinh nhật, bạn thân yêu của tôi! 🎉🎂",
+                    button: {
+                        text: "❤️️",
+                    },
+                });
+            }
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </body>
+</html>
